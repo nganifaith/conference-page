@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'cocogoose';
+  src: local("cocogoose"),
+    url("./assets/cocogoose/Cocogoose_trial.otf")
+      format("truetype");
+}
+
+:root {
+  --primary-color: #ec5242;
+  --black-color:  #272a31;
+  --grey-color: #d3d3d3;
+
+}
