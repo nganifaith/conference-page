@@ -13,8 +13,9 @@
 }
 
 /* General Styles */
- body {
-   font-family: 'Lato', sans-serif;
+
+body {
+  font-family: 'Lato', sans-serif;
 }
 
 a:link {
@@ -45,15 +46,16 @@ ul {
   display: none;
 }
 
-.mobile-display > i{
+.mobile-display > i {
   font-size: 30px;
 }
 
 /* main Section */
 
-h1, h4 {
+h1,
+h4 {
   color: var(--primary-color);
-  font-family: cocogoose;
+  font-family: cocogoose sans-serif;
 }
 
 .event-details {
@@ -62,7 +64,7 @@ h1, h4 {
 }
 
 .date {
-  font-family: cocogoose;
+  font-family: cocogoose sans-serif;
 }
 
 /* Activity section */
@@ -99,7 +101,7 @@ h1, h4 {
 
 .activity > h4 {
   font-size: 14px;
-  max-width: 100px ;
+  max-width: 100px;
   min-width: 100px !important;
 }
 
@@ -117,7 +119,6 @@ h1, h4 {
 .action-call > a {
   padding: 20px;
   color: white;
-
 }
 
 /* Speakers Section */
@@ -162,7 +163,6 @@ h1, h4 {
   font-size: 20px;
   color: var(--primary-color);
   padding: 10px;
-
 }
 
 .first-footer {
@@ -174,8 +174,7 @@ h1, h4 {
   justify-content: space-evenly;
   padding: 5px 5px 5px;
   align-items: center;
-  flex-wrap: wrap ;
-
+  flex-wrap: wrap;
 }
 
 .sponsors {
