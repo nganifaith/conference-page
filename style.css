@@ -2,20 +2,19 @@
 
 @font-face {
   font-family: 'cocogoose';
-  src: local("cocogoose"),
-    url("./assets/cocogoose/Cocogoose_trial.otf") format("truetype");
+  src: local("cocogoose"), url("./assets/cocogoose/Cocogoose_trial.otf") format("truetype");
 }
 
 :root {
   --primary-color: #ec5242;
-  --black-color:  #272a31;
+  --black-color: #272a31;
   --grey-color: #d3d3d3;
   --secondary-font: 'Lato', sans-serif;
 }
 
 /* General Styles */
  body {
-  font-family: 'Lato', sans-serif;
+   font-family: 'Lato', sans-serif;
 }
 
 a:link {
@@ -48,7 +47,6 @@ ul {
 
 .mobile-display > i{
   font-size: 30px;
-
 }
 
 /* main Section */
