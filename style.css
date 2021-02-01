@@ -18,6 +18,9 @@
 
 body {
   font-family: 'Lato', sans-serif;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgb(255, 255, 255)), url("./assets/images/culture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 a:link {
@@ -121,6 +124,12 @@ h4 {
 .action-call > a {
   padding: 20px;
   color: white;
+}
+
+.event-details {
+  border: 2px solid white;
+  background-color: var(--grey-color);
+  padding: 10px;
 }
 
 /* Speakers Section */
