@@ -11,5 +11,108 @@
   --primary-color: #ec5242;
   --black-color:  #272a31;
   --grey-color: #d3d3d3;
+  --secondary-font: font-family: 'Lato', sans-serif;
+
+}
+
+/* General Styles */
+ body {
+  font-family: 'Lato', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Header section */
+
+.desktop-nav {
+  display: none;
+}
+
+.mobile-display > i{
+  font-size: 30px;
+
+}
+
+/* main Section */
+
+h1, h4 {
+  color: var(--primary-color);
+  font-family: cocogoose;
+}
+
+.event-details {
+  padding: 10px;
+  margin: 10px;
+}
+
+.date {
+  font-family: cocogoose;
+}
+
+/* Activity section */
+
+.main-page {
+  background-color: #242830;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(53,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='19' height='19' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23242830' cx='9.5' cy='9.5' r='9.5'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.67'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 5px;
+}
+
+.line {
+  width: 30px;
+  margin: auto;
+  color: var(--primary-color);
+  opacity: 1;
+}
+
+.activity {
+  margin: 5px;
+  background-color: #ffffff54;
+  display: flex;
+  align-items: center;
+}
+
+.activity > i {
+  font-size: 35px;
+  text-align: center;
+  max-width: 100px;
+  padding: 20px 20px;
+}
+
+.activity > h4 {
+  font-size: 14px;
+  max-width: 100px ;
+  min-width: 100px !important;
+}
+
+.activity > p {
+  font-size: 13px;
+}
+
+.action-call {
+  background-color: var(--primary-color);
+  width: 250px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.action-call > a {
+  padding: 20px;
+  color: white;
 
 }
