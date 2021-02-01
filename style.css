@@ -10,6 +10,7 @@
   --black-color: #272a31;
   --grey-color: #d3d3d3;
   --secondary-font: 'Lato', sans-serif;
+  --primary-font: coogoose, sans-serif;
 }
 
 /* General Styles */
@@ -55,7 +56,7 @@ ul {
 h1,
 h4 {
   color: var(--primary-color);
-  font-family: cocogoose sans-serif;
+  font-family: var(--primary-font);
 }
 
 .event-details {
@@ -64,7 +65,7 @@ h4 {
 }
 
 .date {
-  font-family: cocogoose sans-serif;
+  font-family: var(--primary-font);
 }
 
 /* Activity section */
