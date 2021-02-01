@@ -3,8 +3,7 @@
 @font-face {
   font-family: 'cocogoose';
   src: local("cocogoose"),
-    url("./assets/cocogoose/Cocogoose_trial.otf")
-      format("truetype");
+    url("./assets/cocogoose/Cocogoose_trial.otf") format("truetype");
 }
 
 :root {
@@ -12,7 +11,6 @@
   --black-color:  #272a31;
   --grey-color: #d3d3d3;
   --secondary-font: font-family: 'Lato', sans-serif;
-
 }
 
 /* General Styles */
