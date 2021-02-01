@@ -36,6 +36,12 @@ a:active {
   text-decoration: underline;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /* Header section */
 
 .desktop-nav {
@@ -78,6 +84,7 @@ h1, h4 {
   margin: auto;
   color: var(--primary-color);
   opacity: 1;
+  padding-top: 2px;
 }
 
 .activity {
@@ -120,20 +127,20 @@ h1, h4 {
 /* Speakers Section */
 
 .chess-image {
-  width: 50px;
-  height: 50px;
+  width: 75px;
+  height: 75px;
   position: absolute;
-  top: -10px;
+  top: -25px;
   left: -5px;
 }
 
 .main-image {
-  height: 100px;
+  height: 120px;
   position: relative;
 }
 
 .speakers {
-  font-size: 10px;
+  font-size: 12px;
   margin: 10px;
 }
 
@@ -142,7 +149,7 @@ h1, h4 {
 }
 
 .speakers > h4 {
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .more {
@@ -159,4 +166,25 @@ h1, h4 {
   font-size: 20px;
   color: var(--primary-color);
   padding: 10px;
+}
+
+.first-footer {
+  background-color: var(--black-color);
+}
+
+.first-footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2px 5px 5px 5px;
+  align-items: center;
+  flex-wrap: wrap ;
+
+}
+
+.sponsors {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--grey-color);
+  padding: 2px 10px;
+  align-content: center;
 }
