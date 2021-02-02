@@ -12,27 +12,27 @@
 
 <body>
   <header>
-    <nav class="navbar">
+    <nav>
       <div class="desktop-nav">
-        <ul>
-          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#">English</a></li>
-          <li><a href="#">My Page</a></li>
-          <li><a href="#">Logout</a></li>
+        <ul class="list-unstyled m-0 navbar">
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-twitter"></i></a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">English</a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">My Page</a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">Logout</a></li>
         </ul>
-        <div class="second-header">
-          <figure>
-            <img src="./assets/images/logo.png" alt="Logo"/>
-            <figcaption>Arts & Culture Summit 2021</figcaption>
+        <div class="second-header d-flex align-items-center justify-content-space px-5 py-1">
+          <figure class="d-flex flex-fill ms-5 ps-5">
+            <img src="./assets/images/small-logo.png" alt="Logo" class="image-fluid small-logo"/>
+            <figcaption class="text-center pt-3 fw-bold fs-5">Arts & Culture Summit 2021</figcaption>
           </figure>
-          <ul>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsor</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="./ticket.html">Get Ticket</a></li>
+          <ul class="navbar list-unstyled">
+            <li><a href="./about.html" class="head-text">About</a></li>
+            <li><a href="#" class="text-center link-dark">Program</a></li>
+            <li><a href="#" class="text-center link-dark">Join</a></li>
+            <li><a href="#" class="text-center link-dark">Sponsor</a></li>
+            <li><a href="#" class="text-center link-dark">News</a></li>
+            <li class="action"><a href="./ticket.html" class="head-text">Get Ticket</a></li>
           </ul>
         </div>
       </div>
@@ -43,54 +43,58 @@
   </header>
   <main>
     <section>
-      <article class="event p-4">
-        <h1 class="fs-5 fst-normal">Cultural Season</h1>
-        <h6 class="fs-6 fst-italic">Arts&culture2021.com</h6>
-        <h4 class="fs-1 fw-bold">Hello, Share Your World & Thought Through Arts and Culture!!!</h4>
-        
-        <button type="button" class="btn btn-light">Video</button>
-      </article>
-      <article class="p-2">
-        <p class="event-details">
-          The most joyful and pleasant way to express your deepest thought is through art work
-          Come witness how people share their thought in the most beautiful way ever at Ceative_Con 2021
-        </p>
-        <h3 class="date ps-2 fw-bold">2021.07.15(THUR) - 2021.07.17(SAT)</h3>
-        <h5 class="ps-2 text-center">@Meseum Art and Culture Yaounde, Cameroon</h5>
-      </article>
+      <section class="my-container">
+        <article class="container event p-4 ms-5">
+          <h1 class="fs-5 fst-normal">Cultural Season</h1>
+          <h6 class="fs-6 fst-italic">Arts&culture2021.com</h6>
+          <h4 class="fs-1 fw-bold">Hello, Share Your World & Thought Through Arts and Culture!!!</h4>
+          
+          <button type="button" class="btn btn-light">Video</button>
+        </article>
+        <article class="p-2">
+          <p class="event-details">
+            The most joyful and pleasant way to express your deepest thought is through art work
+            Come witness how people share their thought in the most beautiful way ever at Ceative_Con 2021
+          </p>
+          <h3 class="date ps-2 fw-bold">2021.07.15(THUR) - 2021.07.17(SAT)</h3>
+          <h5 class="ps-2 text-center">@Meseum Art and Culture Yaounde, Cameroon</h5>
+        </article>
+      </section>
     </section>
     <section class="main-page">
-      <div class="m-5">
-        <h2 class= "text-center text-white fs-5 pt-5">Main Program</h2>
-        <hr class="line">
-      </div>
-      <article class="activity">
-        <i class="w-25 fas fa-book-reader text-white"></i>
-        <h4 class="w-25 ">Lectures</h4>
-        <p class="flex-fill text-white pt-3">Lessons on express thoughts through colors. Listen to Our Origin Through Pictionary</p>
-      </article>
-      <article class="activity">
-        <i class="w-25 fas fa-tv text-white"></i>
-        <h4 class="w-25">Exhibitions</h4>
-        <p class="flex-fill  text-white pt-3">Art Exhibitions from Renounce artists and Creative minds</p>
-      </article>
-      <article class="activity">
-        <i class="w-25 fas fa-comments-dollar text-white"></i>
-        <h4 class="w-25">Forum</h4>
-        <p class="flex-fill  text-white pt-3">Get to connect with fellow attendees and share your thougts through group games</p>
-      </article>
-      <article class="activity">
-        <i class="w-25 fas fa-place-of-worship  text-white"></i>
-        <h4 class="w-25">Workshop</h4>
-        <p class="flex-fill text-white pt-3">Implement what you've learned during the lectures by been creative</p>
-      </article>
-      <article class="activity">
-        <i class="w-25 fas fa-project-diagram text-white"></i>
-        <h4 class="w-25 ">Networking</h4>
-        <p class="flex-fill text-white pt-3">The most important thing is to connect with people. Meet and get in-touch</p>
-      </article>
+      <section class="my-container">
+        <div class="m-5">
+          <h2 class= "text-center text-white fs-5 pt-5">Main Program</h2>
+          <hr class="line">
+        </div>
+        <article class="activity">
+          <i class="w-25 fas fa-book-reader text-white"></i>
+          <h4 class="w-25 ">Lectures</h4>
+          <p class="flex-fill text-white pt-3">Lessons on express thoughts through colors. Listen to Our Origin Through Pictionary</p>
+        </article>
+        <article class="activity">
+          <i class="w-25 fas fa-tv text-white"></i>
+          <h4 class="w-25">Exhibitions</h4>
+          <p class="flex-fill  text-white pt-3">Art Exhibitions from Renounce artists and Creative minds</p>
+        </article>
+        <article class="activity">
+          <i class="w-25 fas fa-comments-dollar text-white"></i>
+          <h4 class="w-25">Forum</h4>
+          <p class="flex-fill  text-white pt-3">Get to connect with fellow attendees and share your thougts through group games</p>
+        </article>
+        <article class="activity">
+          <i class="w-25 fas fa-place-of-worship  text-white"></i>
+          <h4 class="w-25">Workshop</h4>
+          <p class="flex-fill text-white pt-3">Implement what you've learned during the lectures by been creative</p>
+        </article>
+        <article class="activity">
+          <i class="w-25 fas fa-project-diagram text-white"></i>
+          <h4 class="w-25 ">Networking</h4>
+          <p class="flex-fill text-white pt-3">The most important thing is to connect with people. Meet and get in-touch</p>
+        </article>
 
-      <h6 class="action-call"><a href="#" class="text-center">See the Program</a></h6>
+        <h6 class="action-call"><a href="#" class="text-center">See the Program</a></h6>
+      </section>
     </section>
 
     <section class="speakers-section">
@@ -198,7 +202,7 @@
         <h2 class= "text-center fw-bold fs-5 pt-5 text-white">Sponsors</h2>
         <hr class="line">
       </div>
-      <ul>
+      <ul class="list-unstyled">
         <li class="align-middle"><a href="#" class="sponsors">Njoku</a></li>
         <li class="align-middle"><a href="#" class="sponsors">ActiveSpaces</a></li>
         <li class="align-middle"><a href="#" class="sponsors">Mira Ink</a></li>
