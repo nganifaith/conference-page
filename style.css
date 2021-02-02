@@ -45,8 +45,25 @@ a:active {
   display: none;
 }
 
-.mobile-display > i {
-  font-size: 30px;
+.small-logo {
+  height: 50px;
+}
+
+.small-logo + figcaption {
+  width: 100px;
+  font-size: 15px;
+  line-height: 1.2;
+  margin-left: 5px;
+}
+
+.hero-text {
+  background-image: linear-gradient(to right, var(--primary-color-op), var(--primary-color-op)), url(https://images.pexels.com/photos/1313814/pexels-photo-1313814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero-text h4 {
+  color: transparent;
 }
 
 /* main Section */
@@ -80,7 +97,7 @@ h4 {
 }
 
 .activity {
-  margin: 5px;
+  margin: 5px 0;
   background-color: #ffffff54;
   display: flex;
   align-items: center;
@@ -117,12 +134,20 @@ h4 {
 
 .event-details {
   border: 2px solid white;
-  background-color: white;
-  padding: 10px;
-  margin: 10px;
-  font-size: 17px;
-  font-weight: normal;
+  background-color: #f6f6f6;
+  font-size: 13px;
   line-height: 1.5;
+  padding: 15px;
+}
+
+.main-page > section > a:last-child {
+  display: block;
+  width: fit-content;
+  padding: 10px 20px;
+  color: white;
+  background: var(--primary-color);
+  text-transform: uppercase;
+  margin: 10px auto;
 }
 
 /* Speakers Section */
@@ -131,13 +156,14 @@ h4 {
   width: 75px;
   height: 75px;
   position: absolute;
-  top: -25px;
-  left: -5px;
+  top: -15px;
+  left: -15px;
 }
 
 .main-image {
   height: 120px;
   position: relative;
+  padding-right: 10px;
 }
 
 .speakers {
@@ -147,26 +173,17 @@ h4 {
 
 .speakers > hr {
   width: 25px;
+  margin: 5px 0;
 }
 
 .speakers > h4 {
   font-size: 11px;
 }
 
-.more {
-  width: 95%;
-  margin: 10px auto;
-}
-
-.more > span {
-  padding: 10px;
-  margin-left: 60px;
-}
-
 .more i {
   font-size: 20px;
   color: var(--primary-color);
-  padding: 10px;
+  padding: 0 10px;
 }
 
 .first-footer {
@@ -176,7 +193,6 @@ h4 {
 .first-footer ul {
   display: flex;
   justify-content: space-evenly;
-  padding: 5px 5px 5px;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -234,6 +250,22 @@ h4 {
   padding-left: 10px;
 }
 
+.my-container {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+}
+
+.last-footer img + figcaption {
+  font-size: 13px;
+  align-self: center;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+
 /* Media Query */
 
 @media only screen and (min-width: 768px) {
@@ -245,27 +277,23 @@ h4 {
     display: block;
   }
 
-  .desktop-nav > ul {
-    justify-content: flex-end;
+  .desktop-nav > div:first-child {
     background-color: var(--black-color);
-    padding: 5px 30px;
+  }
+
+  .desktop-nav > div:last-child {
+    background-color: white;
   }
 
   .second-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
-  }
-
-  .small-logo {
-    width: 50px;
-    height: 50px;
   }
 
   .second-header > ul > li {
-    margin: 2px;
-    padding: 5px;
+    margin: 0 10px;
+    padding: 0 5px;
   }
 
   .head-text {
@@ -274,6 +302,8 @@ h4 {
 
   .action {
     border: 5px solid var(--primary-color);
+    padding: 5px 15px !important;
+    margin-left: 20px !important;
   }
 
   .last-header {
@@ -288,8 +318,29 @@ h4 {
   }
 
   .my-container {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .hero-text h4 {
+    font-size: 3.5rem !important;
+  }
+
+  .event-details {
+    font-size: 17px;
+    padding: 30px !important;
+    max-width: 75%;
+  }
+
+  .date {
+    font-size: 40px;
+  }
+
+  .event-details ~ h6 {
+    font-size: 25px;
+    opacity: 0.8;
   }
 
   .activity {
@@ -301,9 +352,10 @@ h4 {
   .activity > i {
     font-size: 40px;
     max-width: 100%;
+    padding: 20px 0;
   }
 
-  .actvity > h4 {
+  .activity > h4 {
     text-align: center;
     font-weight: bold;
     font-size: 20px;
@@ -312,14 +364,24 @@ h4 {
 
   .activity > p {
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .main-page > section > a:last-child {
+    padding: 20px;
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 20px;
+    background: transparent;
   }
 
   .speaker-container {
     display: grid;
     grid-template-columns: auto auto;
   }
-  
+
   .about-event {
     padding: 10px;
   }
@@ -334,5 +396,10 @@ h4 {
     background-color: var(--black-color);
     padding: 10px;
     margin: 10px 0;
+  }
+
+  .copyright {
+    font-size: 1em;
+    max-width: 60%;
   }
 }

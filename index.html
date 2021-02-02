@@ -14,48 +14,54 @@
   <header>
     <nav>
       <div class="desktop-nav">
-        <ul class="list-unstyled m-0 navbar">
-          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
-          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-twitter"></i></a></li>
-          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">English</a></li>
-          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">My Page</a></li>
-          <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">Logout</a></li>
-        </ul>
-        <div class="second-header d-flex align-items-center justify-content-space px-4 py-1">
-          <figure class="d-flex flex-fill m-0 ms-5">
-            <img src="./assets/images/small-logo.png" alt="Logo" class="image-fluid small-logo"/>
-            <figcaption class="pt-2 fw-bold">Arts & Culture Summit 2021</figcaption>
-          </figure>
-          <ul class="navbar list-unstyled">
-            <li><a href="./about.html" class="head-text">About</a></li>
-            <li><a href="#" class="text-center link-dark">Program</a></li>
-            <li><a href="#" class="text-center link-dark">Join</a></li>
-            <li><a href="#" class="text-center link-dark">Sponsor</a></li>
-            <li><a href="#" class="text-center link-dark">News</a></li>
-            <li class="action"><a href="./ticket.html" class="head-text">Get Ticket</a></li>
+        <div>
+          <ul class="list-unstyled navbar my-container justify-content-end">
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-twitter"></i></a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">English</a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">My Page</a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">Logout</a></li>
           </ul>
+        </div>
+
+        <div>
+          <div class="second-header d-flex align-items-center justify-content-space my-container py-1">
+            <figure class="d-flex flex-fill m-0 align-items-center">
+              <img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/>
+              <figcaption class="fw-bold">Arts & Culture Summit 2021</figcaption>
+            </figure>
+            <ul class="navbar list-unstyled m-0">
+              <li><a href="./about.html" class="head-text">About</a></li>
+              <li><a href="#" class="text-center link-dark">Program</a></li>
+              <li><a href="#" class="text-center link-dark">Join</a></li>
+              <li><a href="#" class="text-center link-dark">Sponsor</a></li>
+              <li><a href="#" class="text-center link-dark">News</a></li>
+              <li class="action"><a href="./ticket.html" class="head-text">Get Ticket</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="mobile-display">
-        <i class="fas fa-bars ps-5"></i>
+        <i class="fas fa-bars ps-4 pt-3 fs-1"></i>
       </div>
     </nav>
   </header>
   <main>
     <section>
       <section class="my-container">
-        <article class="event p-4 ms-5">
-          <h1 class="fs-5 fst-normal">Cultural Season</h1>
-          <h6 class="fs-6 fst-italic">Arts&culture2021.com</h6>
-          <h4 class="fs-1 fw-bold">Hello, Share Your World & Thought Through Arts and Culture!!!</h4>
+        <article class="event py-5 text-uppercase">
+          <h1 class="fs-6 fst-normal">Cultural Season</h1>
+          <div class="hero-text">
+            <h4 class="fs-1 fw-bold">Hello, Share Your World & Thought Through Arts and Culture!!!</h4>
+          </div>
         </article>
-        <article class="p-2">
-          <p class="event-details p-5">
+        <article>
+          <p class="event-details">
             The most joyful and pleasant way to express your deepest thought is through art work
             Come witness how people share their thought in the most beautiful way ever at Ceative_Con 2021
           </p>
-          <h3 class="date text-center fw-bold">2021.07.15(THUR) - 2021.07.17(SAT)</h3>
-          <h5 class="ps-2 text-center">@Meseum Art and Culture Yaounde, Cameroon</h5>
+          <h4 class="date text-dark fw-bold">2021.07.15(THUR) - 2021.07.17(SAT)</h4>
+          <h6>@Meseum Art and Culture Yaounde, Cameroon</h6>
         </article>
       </section>
     </section>
@@ -65,7 +71,7 @@
           <h2 class= "text-center text-white fs-5 pt-5">Main Program</h2>
           <hr class="line">
         </div>
-        <section class="row justify-content-md-center">
+        <section class="row justify-content-md-center m-0">
           <article class="activity col-md gap-0">
             <i class="w-25 fas fa-book-reader text-white"></i>
             <h4 class="w-25 ">Lectures</h4>
@@ -91,8 +97,8 @@
             <h4 class="w-25 ">Networking</h4>
             <p class="flex-fill text-white pt-3">The most important thing is to connect with people. Meet and get in-touch</p>
           </article>
-      </section>
-        <h6 class="action-call"><a href="#" class="text-center">See the Program</a></h6>
+        </section>
+        <a href="#" class="text-center">See the Program</a>
       </section>
     </section>
 
@@ -111,7 +117,7 @@
             
           <div class="speakers">
             <h3>Johnny Austin</h3>
-            <h4>Connect to your inner self
+            <h4 class="fst-italic">Connect to your inner self
               The aim of art is to represent not the outward appearance of things, but their inward significance.
             </h4>
             <hr>
@@ -125,7 +131,7 @@
           </div>
           <div class="speakers">
             <h3>Aga Naplocha</h3>
-            <h4>Express your emotions
+            <h4 class="fst-italic">Express your emotions
               Art and love are the same thing: It’s the process of seeing yourself in things that are not you.
             </h4>
             <hr>
@@ -142,7 +148,7 @@
           </div>
           <div class="speakers">
             <h3>Alexandra Sunderland</h3>
-            <h4>Art washes away from the soul the dust of everyday life.</h4>
+            <h4 class="fst-italic">Art washes away from the soul the dust of everyday life.</h4>
             <hr>
             <p>It is good to love many things, for therein lies the true strength, and whosoever loves 
               much performs much, and can accomplish much, and what is done in love is well done.</p>
@@ -157,7 +163,7 @@
           </div>
           <div class="speakers">
             <h3>Chidima Kalu</h3>
-            <h4>You use a glass mirror to see your face; you use works of art to see your soul.</h4>
+            <h4 class="fst-italic">You use a glass mirror to see your face; you use works of art to see your soul.</h4>
             <hr>
             <p>The most beautiful experience we can have is the mysterious. 
               It is the fundamental emotion that stands at the cradle of true art and true science.</p>
@@ -171,7 +177,7 @@
           </div>
           <div class="speakers">
             <h3>Eli Schutze</h3>
-            <h4>Mind Coach
+            <h4 class="fst-italic">Mind Coach
               Others have seen what is and asked why. I have seen what could be and asked why not. 
             </h4>
             <hr>
@@ -195,8 +201,11 @@
     </section>
     </section>
     </section>
-    <section class="more border d-md-none">
-      <span class="p-5 text-center" >More <i class="fas fa-angle-down"></i></span>
+    <section class="my-container">
+      <button class="d-md-none btn btn-flat w-100 m-auto d-flex border py-2 text-uppercase more align-items-center justify-content-center">
+        More
+        <i class="fas fa-angle-down"></i>
+      </button>
     </section>
   </main>
   <footer>
@@ -205,24 +214,30 @@
         <h2 class= "text-center fw-bold fs-5 pt-5 text-white">Sponsors</h2>
         <hr class="line">
       </div>
-      <ul class="list-unstyled">
-        <li class="align-middle"><a href="#" class="sponsors">Njoku</a></li>
+      <ul class="list-unstyled pb-5 my-container mb-0">
+        <li class="align-middle"><a href="#" class="sponsors">Njorku</a></li>
         <li class="align-middle"><a href="#" class="sponsors">ActiveSpaces</a></li>
         <li class="align-middle"><a href="#" class="sponsors">Mira Ink</a></li>
         <li class="align-middle"><a href="#" class="sponsors">Webshinobis</a></li>
         <li class="align-middle"><a href="#" class="sponsors">SpaceLink</a></li>
       </ul>
     </div>
-    <div class="last-footer d-flex align-items-center px-5 py-2 about-footer">
-      <figure class="d-flex flex-fill m-0 ms-5">
-        <img src="./assets/images/small-logo.png" alt="Logo" class="image-fluid small-logo"/>
-        <figcaption class="pt-2 fw-bold text-white"> &#169; Arts&Culture Festival 2021</figcaption>
+    <div class="last-footer d-flex align-items-center py-4 justify-content-center my-container">
+      <figure class="d-flex m-0">
+        <img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/>
+        <figcaption class="fw-bold"> Arts&Culture Festival 2021</figcaption>
       </figure>
-        <div class="ms-5 text-white px-3 py-5">
-            Art&Culture 2021 Cameroon. This is capstone project develop by <b>Faith Ngani</b>
+      <div class="copyright">
+        <div>
+            Art&Culture 2021 Cameroon. All rights reserved to <b>Faith Ngani</b>
+        </div>
+        <div class="d-none d-md-block mt-2">
+            This is capstone project developed by <b>Faith Ngani</b>
             As a partial fullfillment for the Microverse Bootcamp Trainig program.
         </div>
       </div>
+      
+    </div>
   </footer>
 </body>
 
