@@ -322,18 +322,17 @@ h4 {
   
   .about-event {
     padding: 10px;
-    
   }
 
-.logo-section {
-  max-width: 400px;
-  margin: 5px auto;
-  padding: 10px 5px;
-}
+  .logo-section {
+    max-width: 400px;
+    margin: 5px auto;
+    padding: 10px 5px;
+  }
 
-.about-footer {
-  background-color: var(--black-color);
-  padding: 10px;
-  margin: 10px 0;
-}
+  .about-footer {
+    background-color: var(--black-color);
+    padding: 10px;
+    margin: 10px 0;
+  }
 }
