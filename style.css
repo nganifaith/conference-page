@@ -197,11 +197,12 @@ h4 {
   font-size: 16px;
 }
 
-.more-info{
+.more-info {
   margin: 10px;
   padding: 20px;
   text-align: center;
 }
+
 .decision {
   background-color: white;
 }
@@ -211,7 +212,6 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .limbe-img {
   background: linear-gradient(to right, var(--primary-color-op), var(--primary-color-op)), url(./assets/images/festac.jpeg);
@@ -231,13 +231,13 @@ h4 {
 
 .arts {
   width: 100px !important;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 /* Media Query */
 
 @media only screen and (min-width: 768px) {
-  .mobile-display{
+  .mobile-display {
     display: none;
   }
 
@@ -250,7 +250,6 @@ h4 {
     background-color: var(--black-color);
     padding: 5px 30px;
   }
-
 
   .second-header {
     display: flex;
@@ -291,7 +290,6 @@ h4 {
   .my-container {
     max-width: 800px;
     margin: auto;
-    
   }
 
   .activity {
@@ -318,7 +316,7 @@ h4 {
   }
 
   .speaker-container {
-    display:grid;
+    display: grid;
     grid-template-columns: auto auto;
   }
   
@@ -338,5 +336,4 @@ h4 {
   padding: 10px;
   margin: 10px 0;
 }
-
 }
