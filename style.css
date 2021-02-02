@@ -63,11 +63,6 @@ h4 {
   font-family: var(--primary-font);
 }
 
-.event-details {
-  padding: 10px;
-  margin: 10px;
-}
-
 .date {
   font-family: var(--primary-font);
 }
@@ -130,8 +125,9 @@ h4 {
   border: 2px solid white;
   background-color: var(--grey-color);
   padding: 10px;
+  margin: 10px;
 }
-
+  
 /* Speakers Section */
 
 .chess-image {
