@@ -117,9 +117,12 @@ h4 {
 
 .event-details {
   border: 2px solid white;
-  background-color: var(--grey-color);
+  background-color: white;
   padding: 10px;
   margin: 10px;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5;
 }
 
 /* Speakers Section */
@@ -189,15 +192,18 @@ h4 {
 
 /* About page styles */
 
-.last-header {
-  align-items: center;
-  justify-content: space-around;
-  width: 50%;
-}
-
 .logo-section figcaption {
   font-family: var(--primary-font);
   font-size: 16px;
+}
+
+.more-info{
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.decision {
+  background-color: white;
 }
 
 .past-event {
@@ -205,6 +211,7 @@ h4 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .limbe-img {
   background: linear-gradient(to right, var(--primary-color-op), var(--primary-color-op)), url(./assets/images/festac.jpeg);
@@ -222,6 +229,10 @@ h4 {
   background: linear-gradient(to right, var(--primary-color-op), var(--primary-color-op)), url(./assets/images/manyu.jpeg);
 }
 
+.arts {
+  width: 100px !important;
+  padding-left: 10px
+}
 
 /* Media Query */
 
@@ -235,10 +246,9 @@ h4 {
   }
 
   .desktop-nav > ul {
-    display: flex;
     justify-content: flex-end;
     background-color: var(--black-color);
-    padding: 5px 40px;
+    padding: 5px 30px;
   }
 
 
@@ -255,7 +265,7 @@ h4 {
   }
 
   .second-header > ul > li {
-    margin: 5px;
+    margin: 2px;
     padding: 5px;
   }
 
@@ -266,5 +276,67 @@ h4 {
   .action {
     border: 5px solid var(--primary-color);
   }
+
+  .last-header {
+    justify-content: flex-end;
+    padding: 5px 30px;
+    align-items: center;
+  }
+
+  .last-header > ul > li {
+    margin: 2px;
+    padding: 5px;
+  }
+
+  .my-container {
+    max-width: 800px;
+    margin: auto;
+    
+  }
+
+  .activity {
+    margin: 1px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activity > i {
+    font-size: 40px;
+    max-width: 100%;
+  }
+
+  .actvity > h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 100%;
+  }
+
+  .activity > p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .speaker-container {
+    display:grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .about-event {
+    padding: 10px;
+    
+  }
+
+.logo-section {
+  max-width: 400px;
+  margin: 5px auto;
+  padding: 10px 5px;
+}
+
+.about-footer {
+  background-color: var(--black-color);
+  padding: 10px;
+  margin: 10px 0;
+}
 
 }

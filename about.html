@@ -13,27 +13,27 @@
 
 <body>
   <header>
-    <nav class="navbar">
+    <nav>
       <div class="desktop-nav">
-        <ul class="list-unstyled">
-          <li><a href="#" class="text-center text-white"><i class="fab fa-facebook-f"></i></a></li>
-          <li><a href="#" class="text-center text-white"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#" class="text-center text-white">English</a></li>
-          <li><a href="#" class="text-center text-white">My Page</a></li>
-          <li><a href="#" class="text-center text-white">Logout</a></li>
+        <ul class="list-unstyled navbar m-0">
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white"><i class="fab fa-facebook-f"></i></a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white"><i class="fab fa-twitter"></i></a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white">English</a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white">My Page</a></li>
+          <li class="px-2 mx-1"><a href="#" class="text-center text-white">Logout</a></li>
         </ul>
-        <div class="second-header">
-          <figure>
-            <img src="./assets/images/logo.png" alt="Logo"/>
-            <figcaption>Arts & Culture Summit 2021</figcaption>
+        <div class="second-header d-flex align-items-center justify-content-space px-4 py-1">
+          <figure class="d-flex flex-fill m-0 ms-5">
+            <img src="./assets/images/small-logo.png" alt="Logo" class="image-fluid small-logo"/>
+            <figcaption class="pt-2 fw-bold">Arts&Culture Festival 2021</figcaption>
           </figure>
-          <ul class="list-unstyled w-75">
-            <li><a href="./about.html">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsor</a></li>
-            <li><a href="#">News</a></li>
-            <li><a href="./ticket.html">Get Ticket</a></li>
+          <ul class="list-unstyled navbar">
+            <li><a href="./about.html" class="head-text">About</a></li>
+            <li><a href="#" class="text-center link-dark">Program</a></li>
+            <li><a href="#" class="text-center link-dark">Join</a></li>
+            <li><a href="#" class="text-center link-dark">Sponsor</a></li>
+            <li><a href="#" class="text-center link-dark">News</a></li>
+            <li class="action"><a href="./ticket.html" class="head-text">Get Ticket</a></li>
           </ul>
         </div>
       </div>
@@ -41,79 +41,86 @@
         <i class="fas fa-bars ps-5"></i>
       </div>
     </nav>
-    <div class="last-header d-none d-md-flex">
-      <i class="fas fa-home"></i>
-      <i class="fas fa-angle-right"></i>
-      <h6>Language</h6>
-      <i class="fas fa-angle-right"></i>
-      <h6>English</h6>
-    </div>
+    <ul class="last-header d-none list-unstyled navbar d-md-flex m-0">
+      <li><i class="fas fa-home"></i></li>
+      <li><i class="fas fa-angle-right"></i></li>
+      <li><h6>Language</h6></li>
+      <li><i class="fas fa-angle-right"></i></li>
+      <li><h6>English</h6></li>
+    </ul>
   </header>
   <main class="p-2">
-    <article class="event p-4">
-      <h1 class="fs-5 fst-normal text-center">Cultural Season</h1>
-      <h6 class="fs-6 fst-italic text-center">Arts&culture2021.com</h6>
-      <h4 class="fs-1 fw-bold">Hello, Share Your World & Thought Through Arts and Culture!!!</h4>
-      
-      <button type="button" class="btn btn-light">Video</button>
-    </article>
-    <div class="border boder-3 border-info event-details p-2 text-center">
-      Cameroon which is pupolar known as Africa inminature is full is made up of 0ver 218 enthic groups.
-      The Arts and Culture festival is an avenue where by we get to celebrate our great inheritage, thoughts, emotions,
-      ect through creative
-      art work. This Festival will bring together great artists from different fields.
+    <section class="my-container">
+      <article class="about-event">
+        <h1 class="fs-5 fst-normal text-center">Cultural Season</h1>
+        <h6 class="fs-6 fst-italic text-center">Arts&culture2021.com</h6>
+        <h4 class="fs-1 fw-bold text-center">Hello, Share Your World & Thought Through Arts and Culture!!!</h4>
+      </article>
+      <div class="event-details p-2 text-center">
+        Cameroon which is pupolar known as Africa inminature is full is made up of 0ver 218 enthic groups. <br>
+        The Arts and Culture festival is an avenue where by we get to celebrate our great inheritage, thoughts, emotions,
+        ect through creative
+        art work. <br> This Festival will bring together great artists from different fields. <br>
 
-      We seek to use techology to express our works.
-    </div>
+        We seek to use techology to express our works.
+      </div>
+  
     <div class="more-info text-center">
       Please visit the Ministry of Arts and Culture for more information.
       <b>minac.cm</b> or contact use directly by sending an email to
       <a href="#" class="text-decoration-underline"> arts&culture2021@minac.cm </a> with a clear subject line.
     </div>
-    <div class="decision">
-      <h3 class= "text-center fw-bold fs-5 pt-5"> Arts and Culture Festival 2021 Idea.</h3>
+  </section>
+    <section class="decision">
+      <section class="my-container">
+      <h3 class= "text-center fw-bold fs-3 pt-5"> Arts and Culture Festival 2021 Idea.</h3>
       <hr class="line">
-      <p>
+      <p class= "text-center fs-5 pt-1">
         This year, the committee voted we have a national festival to showcase our rich cultures and how we live in our
         community.
         We are one and We shall celebrate as one people.
       </p>
-      <div class="border m-1 p-2 d-flex align-items-center logo-section">
+      <div class="border d-flex align-items-center logo-section">
         <img src="./assets/images/logo.png" alt="Logo" class="logo w-25">
         <div class="p-2 ms-1">
           <p class="fw-bold border-bottom border-dark">Festival of Arts & Culture 2021</p>
           <small class="border-bottom border-dark">15 - 17 July, 2021 | Yaounde, Cameroon</small>
         </div>
       </div>
-    </div>
+    </section>
+    </section>
     <article class="mx-5">
+      <section class="my-container">
       <h3 class= "text-center fw-bold fs-5 pt-5"> Past Cultural Festivals</h3>
       <hr class="line">
       <p class="text-center">  Let us take a look at past events organized in different towns</p>
     </article>
-    <article class="past-summit d-flex flex-column mx-5">
-      <div class="limbe-img p-5 text-center text-white my-2 past-event">
+     
+    <article class="past-summit d-flex flex-column mx-5 row flex-md-row gap-2">
+      <div class="limbe-img p-5 text-center text-white my-2 past-event col-md-5">
         <h3 class="text">2016</h3>
         <h3>Limbe Festival of Arts and Culture (FESTAC)</h3>
       </div>
-      <div class="bamenda-img p-5 text-center text-white my-2 past-event">
+      <div class="bamenda-img p-5 text-center text-white my-2 past-event col-md-5">
         <h3>2017</h3>
         <h3>Makon Nki-fon Festival of Mankon People</h3>
       </div>
-      <div class="bafoussam-img p-5 text-center text-white my-2 past-event">
+      <div class="bafoussam-img p-5 text-center text-white my-2 past-event col-md-5">
         <h3>2019</h3>
         <h3>Nyanya Festival Bafoussam</h3>
       </div>
       
-      <div class="manyu-img p-5 text-center text-white my-2 past-event">
+      <div class="manyu-img p-5 text-center text-white my-2 past-event col-md-5">
         <h3>2020</h3>
         <h3>Monekim Dance Festival of Manyu People</h3>
       </div>
+     
+    </section>
     </article>
   </main>
 
   <footer>
-    <div class="first-footer">
+    <div class="first-footer d-md-none">
       <div class='m-5'>
         <h2 class= "text-center fw-bold fs-5 pt-5 text-white">Sponsors</h2>
         <hr class="line">
@@ -126,12 +133,14 @@
         <li class="align-middle"><a href="#" class="sponsors">SpaceLink</a></li>
       </ul>
     </div>
-    <div class="last-footer d-flex align-items-center p-5">
-        <div class="w-50">
-          <img src="./assets/images/arts.png" alt="Arts and Culture" class="w-100">
-        </div>
-        <div class="ms-5">
-          <small>&#169; Art&Culture 2021 Cameroon</small>
+    <div class="last-footer d-flex align-items-center px-5 py-2 about-footer">
+      <figure class="d-flex flex-fill m-0 ms-5">
+        <img src="./assets/images/small-logo.png" alt="Logo" class="image-fluid small-logo"/>
+        <figcaption class="fw-bold text-center text-white"> &#169; Arts&Culture Festival 2021</figcaption>
+      </figure>
+        <div class="ms-5 text-white px-3 py-5">
+            Art&Culture 2021 Cameroon. This is capstone project develop by <b>Faith Ngani</b>
+            As a partial fullfillment for the Microverse Bootcamp Trainig program.
         </div>
       </div>
   </footer>
