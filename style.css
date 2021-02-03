@@ -314,8 +314,17 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
   background-color: white;
+}
+
+.ticket-table {
+  border: 5px solid var(--primary-color);
+}
+
+.ticket-table > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .pay-ticket > div:hover {
@@ -331,25 +340,16 @@ h4 {
   display: block;
 }
 
-.ticket-table {
-  border: 5px solid var(--primary-color);
-}
-
-.ticket-table > div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
 .ticket-table > div > div:first-child {
   font-weight: bold;
 }
 
-.ticket-table > div:first-child > div:nth-child(3) {
-  grid-column: 3/5;
-}
-
 .ticket-table .colored > div:not(:first-child) {
   color: var(--primary-color);
+}
+
+.ticket-table > div:first-child > div:nth-child(3) {
+  grid-column: 3/5;
 }
 
 /* Media Query */
@@ -500,15 +500,14 @@ h4 {
     background-color: var(--black-color);
     padding: 10px;
   }
-
+  
   .copyright {
     font-size: 1em;
     max-width: 60%;
   }
-  
+
   .about-footer figcaption,
   .about-footer .copyright {
     color: white;
   }
-
 }
