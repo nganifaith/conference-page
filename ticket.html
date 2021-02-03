@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Arts & Culture</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <input type="checkbox" name="menu" id="nav-checkbox" class="d-none">
+      <div class="desktop-nav">
+        <div class="d-none d-md-block">
+          <ul class="list-unstyled navbar my-container justify-content-end">
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-twitter"></i></a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">English</a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">My Page</a></li>
+            <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1">Logout</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="second-header d-flex align-items-center justify-content-space my-container py-1">
+            <figure class="d-flex flex-fill m-0 align-items-center">
+              <a href="./index.html"><img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/></a>
+              <figcaption class="fw-bold">Arts & Culture Summit 2021</figcaption>
+            </figure>
+            <ul class="navbar list-unstyled m-0">
+              <li><a href="./about.html" class="head-text">About</a></li>
+              <li><a href="#" class="text-center link-dark">Program</a></li>
+              <li><a href="#" class="text-center link-dark">Join</a></li>
+              <li><a href="#" class="text-center link-dark">Sponsor</a></li>
+              <li><a href="#" class="text-center link-dark">News</a></li>
+              <li class="action"><a href="./ticket.html" class="head-text">Get Ticket</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-display">
+        <label class="fas fa-bars ps-4 pt-3 fs-1 position-relative" for="nav-checkbox"></label>
+      </div>
+    </nav>
+    <ul class="last-header d-none list-unstyled navbar d-md-flex m-0">
+      <li><i class="fas fa-home"></i></li>
+      <li><i class="fas fa-angle-right"></i></li>
+      <li><h6>Home</h6></li>
+      <li><i class="fas fa-angle-right"></i></li>
+      <li><h6>Ticket</h6></li>
+    </ul>
+  </header>
+  <main class="my-container">
+    <h1 class="fs-3 mt-5 text-center fw-bold text-uppercase">Select Ticket Type</h1>
+    <hr class="line mt-3 mb-5">
+    <div class="ticket-step mb-5">
+      <span class="text-center fw-bold">Step 1</span>
+      <span class="text-center fw-bold">Please select the number of days Your wish to Join Arts and Culture Festival</span>
+    </div>
+    <section class="ticket-table my-5">
+      <div class="border">
+        <div class="p-2 border text-center">Ticket</div>
+        <div class="p-2 border text-center">1-day-Ticket</div>
+        <div class="p-2 border text-center">2-day-Ticket</div>
+        <div class="p-2 border text-center">Group/Company</div>
+      </div>
+      <div>
+        <div class="border p-2 text-center">Date</div>
+        <div class="border p-2 text-center">16.(Fri)</div>
+        <div class="border p-2 text-center">15-16 July</div>
+        <div class="border p-2 text-center">16-17 July</div>
+        <div class="border p-2 text-center">3days(15-17)</div>
+      </div>
+      <div class="colored">
+        <div class="border p-2 text-center">Normal</div>
+        <div class="border p-2 text-center">5000frs</div>
+        <div class="border p-2 text-center">10000frs</div>
+        <div class="border p-2 text-center">7000frs</div>
+        <div class="border p-2 text-center">30000frs</div>
+      </div>
+      <div class="colored">
+        <div class="border p-2 text-center">Student</div>
+        <div class="border p-2 text-center">2000frs</div>
+        <div class="border p-2 text-center">5000frs</div>
+        <div class="border p-2 text-center">7000Frs</div>
+        <div class="border p-2 text-center">15000frs</div>
+      </div>
+    </section>
+
+    <div class="ticket-step mb-5">
+      <span class="text-center fw-bold">Step 2</span>
+      <span class="text-center fw-bold">Select which role best describes you</span>
+    </div>
+
+    <div class="pay-ticket d-flex align-items-center justify-content-space flex-wrap">
+      <div>
+        Student
+      </div>
+      <div>
+        Normal
+      </div>
+      <div>
+        Group/Company
+      </div>
+      <section class="w-100 my-3">
+        <button class="btn btn-flat w-100 m-auto border py-2 text-uppercase more">
+          Pay
+        </button>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="d-md-none first-footer">
+      <div class='m-5'>
+        <h2 class= "text-center fw-bold fs-5 pt-5 text-white">Sponsors</h2>
+        <hr class="line">
+      </div>
+      <ul class="list-unstyled pb-5 my-container mb-0">
+        <li class="align-middle"><a href="#" class="sponsors">Njorku</a></li>
+        <li class="align-middle"><a href="#" class="sponsors">ActiveSpaces</a></li>
+        <li class="align-middle"><a href="#" class="sponsors">Mira Ink</a></li>
+        <li class="align-middle"><a href="#" class="sponsors">Webshinobis</a></li>
+        <li class="align-middle"><a href="#" class="sponsors">SpaceLink</a></li>
+      </ul>
+    </div>
+    <div class="about-footer">
+      <div class="last-footer d-flex align-items-center py-4 justify-content-center my-container ">
+        <figure class="d-flex m-0">
+          <img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/>
+          <figcaption class="fw-bold"> Arts&Culture Festival 2021</figcaption>
+        </figure>
+        <div class="copyright">
+          <div>
+              Art&Culture 2021 Cameroon. All rights reserved to <b>Faith Ngani</b>
+          </div>
+          <div class="d-none d-md-block mt-2">
+              This is capstone project developed by <b>Faith Ngani</b>
+              As a partial fullfillment for the Microverse Bootcamp Trainig program.
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
