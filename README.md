@@ -1,26 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Townzaa
+# Summit Page
 
-> Townzaa online course directory
+> Festival of Arts and Culture
 
-![screenshot](./ss/s1.png)
-![screenshot](./ss/s2.png)
-![screenshot](./ss/s3.png)
+![screenshot](./static-imgs/home-lg.png)
+![screenshot](./static-imgs/home-sm.png)
+![screenshot](./static-imgs/about-lg.png)
+![screenshot](./static-imgs/about-sm.png)
+![screenshot](./static-imgs/ticket.png)
+
 
 ## Built with
 
 - HTML
 - CSS
 - Bootstrap
-- Sass
 
 ## Live Demo
 
-[Live Demo Link](https://juxsalley.github.io/html-capstone/index.html)
+[Live Demo Link](https://nganifaith.github.io/conference-page/)
 
-This project is built to carefully outline how Bootstrap, sass, and CSS can aid in page layout and responsiveness,
-working with this project you will understand ad take advantage of CSS processors for page layout and elements positioning.
+This project is built to carefully outline how Bootstrap and CSS can aid in page layout and responsiveness,
+working with this project you will understand and take advantage of grid and flex in both CSS and Bootstrap.
 
 ### Prerequisites
 
@@ -29,7 +31,7 @@ working with this project you will understand ad take advantage of CSS processor
 
 ### Setup
 
-- git clone <link-of-the-repo>
+- git clone <https://github.com/nganifaith/conference-page.git>
 - cd repo-folder
 - open in browser
 
@@ -41,9 +43,9 @@ working with this project you will understand ad take advantage of CSS processor
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/juxsalley)
-- Twitter: [@__salley](https://twitter.com/__salley)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dev-salley/)
+- GitHub: [@nganifaith](https://github.com/nganifaith)
+- Twitter: [@Bright_Ngani](https://twitter.com/bright_ngani)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ngani-faith/)
 
 **Design idea by**
 
