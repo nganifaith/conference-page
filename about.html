@@ -14,8 +14,9 @@
 <body class="about-page">
   <header>
     <nav>
+      <input type="checkbox" name="menu" id="nav-checkbox" class="d-none">
       <div class="desktop-nav">
-        <div>
+        <div class="d-none d-md-block">
           <ul class="list-unstyled navbar my-container justify-content-end">
             <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
             <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-twitter"></i></a></li>
@@ -28,7 +29,7 @@
         <div>
           <div class="second-header d-flex align-items-center justify-content-space my-container py-1">
             <figure class="d-flex flex-fill m-0 align-items-center">
-              <img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/>
+              <a href="./index.html"><img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/></a>
               <figcaption class="fw-bold">Arts & Culture Summit 2021</figcaption>
             </figure>
             <ul class="navbar list-unstyled m-0">
@@ -43,7 +44,7 @@
         </div>
       </div>
       <div class="mobile-display">
-        <i class="fas fa-bars ps-4 pt-3 fs-1"></i>
+        <label class="fas fa-bars ps-4 pt-3 fs-1 position-relative" for="nav-checkbox"></label>
       </div>
     </nav>
     <ul class="last-header d-none list-unstyled navbar d-md-flex m-0">

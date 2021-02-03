@@ -43,6 +43,46 @@ a:active {
 
 .desktop-nav {
   display: none;
+  transition: all .3s;
+  position: absolute;
+  top: 0;
+}
+
+input:checked + .desktop-nav {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 20px 0 20px;
+  background: white;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.mobile-display label {
+  z-index: 11;
+}
+
+.second-header.my-container {
+  flex-direction: column;
+  padding: 0;
+}
+
+.head-text {
+  color: var(--primary-color);
+}
+
+.second-header > * {
+  width: 100%;
+}
+
+.second-header .navbar {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.second-header .navbar li {
+  width: 100%;
+  padding: 5px 0;
 }
 
 .small-logo {
@@ -113,7 +153,7 @@ h4 {
 .activity > h4 {
   font-size: 14px;
   max-width: 100px;
-  min-width: 100px !important;
+  min-width: 100px;
 }
 
 .activity > p {
@@ -251,11 +291,6 @@ h4 {
   background-image: linear-gradient(to right, var(--primary-color-op), var(--primary-color-op)), url(./assets/images/manyu.jpeg);
 }
 
-.arts {
-  width: 100px !important;
-  padding-left: 10px;
-}
-
 .my-container {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
@@ -302,7 +337,7 @@ h4 {
 }
 
 .pay-ticket > div {
-  min-width: 300px;
+  min-width: 270px;
   border: 2px solid var(--grey-color);
   padding: 40px;
   font-weight: bolder;
@@ -319,7 +354,10 @@ h4 {
 }
 
 .ticket-table {
-  border: 5px solid var(--primary-color);
+  font-size: 8px;
+  border: 10px solid transparent;
+	border-image: 10 repeating-linear-gradient(-45deg, var(--primary-color) 0, var(--primary-color) 1em, transparent 0, transparent 2em,
+	              #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
 .ticket-table > div {
@@ -359,8 +397,11 @@ h4 {
     display: none;
   }
 
-  .desktop-nav {
+  .desktop-nav,
+  input:checked + .desktop-nav {
     display: block;
+    position: relative;
+    padding: 0;
   }
 
   .desktop-nav > div:first-child {
@@ -376,25 +417,32 @@ h4 {
     padding: 3px;
   }
 
-  .second-header {
-    display: flex;
+  .second-header.my-container {
     justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .second-header .navbar {
+    flex-direction: row;
     align-items: center;
   }
 
-  .second-header > ul > li {
+  /* use unset to discard any previous value given to the width */
+  .second-header > * {
+    width: unset;
+  }
+
+  .second-header > ul.navbar > li {
     margin: 0 10px;
     padding: 0 5px;
+    width: unset;
   }
 
-  .head-text {
-    color: var(--primary-color);
-  }
-
-  .action {
+  .second-header > ul.navbar > li.action {
     border: 5px solid var(--primary-color);
-    padding: 5px 15px !important;
-    margin-left: 20px !important;
+    padding: 5px 15px;
+    margin-left: 20px;
   }
 
   .activity {
@@ -448,7 +496,7 @@ h4 {
 
   .event-details {
     font-size: 17px;
-    padding: 30px !important;
+    padding: 30px;
     max-width: 75%;
   }
 
@@ -494,6 +542,10 @@ h4 {
     max-width: 70%;
     margin: 5px auto;
     padding: 5px;
+  }
+
+  .ticket-table{
+    font-size: 13px;
   }
 
   .about-footer {

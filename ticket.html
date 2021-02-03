@@ -13,8 +13,9 @@
 <body>
   <header>
     <nav>
+      <input type="checkbox" name="menu" id="nav-checkbox" class="d-none">
       <div class="desktop-nav">
-        <div>
+        <div class="d-none d-md-block">
           <ul class="list-unstyled navbar my-container justify-content-end">
             <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-facebook-f"></i></a></li>
             <li class="px-2 mx-1"><a href="#" class="text-center text-white mx-1"><i class="fab fa-twitter"></i></a></li>
@@ -27,7 +28,7 @@
         <div>
           <div class="second-header d-flex align-items-center justify-content-space my-container py-1">
             <figure class="d-flex flex-fill m-0 align-items-center">
-              <img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/>
+              <a href="./index.html"><img src="./assets/images/arts.png" alt="Logo" class="image-fluid small-logo me-1"/></a>
               <figcaption class="fw-bold">Arts & Culture Summit 2021</figcaption>
             </figure>
             <ul class="navbar list-unstyled m-0">
@@ -42,7 +43,7 @@
         </div>
       </div>
       <div class="mobile-display">
-        <i class="fas fa-bars ps-4 pt-3 fs-1"></i>
+        <label class="fas fa-bars ps-4 pt-3 fs-1 position-relative" for="nav-checkbox"></label>
       </div>
     </nav>
     <ul class="last-header d-none list-unstyled navbar d-md-flex m-0">
@@ -54,14 +55,14 @@
     </ul>
   </header>
   <main class="my-container">
-    <h3 class="fs-3 mt-5 text-center fw-bold text-uppercase">Select Ticket Type</h3>
+    <h1 class="fs-3 mt-5 text-center fw-bold text-uppercase">Select Ticket Type</h1>
     <hr class="line mt-3 mb-5">
     <div class="ticket-step mb-5">
       <span class="text-center fw-bold">Step 1</span>
       <span class="text-center fw-bold">Please select the number of days Your wish to Join Arts and Culture Festival</span>
     </div>
-    <section class="ticket-table fs-6 my-5">
-      <div class="border fw-bold">
+    <section class="ticket-table my-5">
+      <div class="border">
         <div class="p-2 border text-center">Ticket</div>
         <div class="p-2 border text-center">1-day-Ticket</div>
         <div class="p-2 border text-center">2-day-Ticket</div>
@@ -69,10 +70,10 @@
       </div>
       <div>
         <div class="border p-2 text-center">Date</div>
-        <div class="border p-2 text-center">16. July (Fri)</div>
-        <div class="border p-2 text-center">15 - 16 July</div>
-        <div class="border p-2 text-center">16 - 17 July</div>
-        <div class="border p-2 text-center">3 days ( 15 - 17 July)</div>
+        <div class="border p-2 text-center">16.(Fri)</div>
+        <div class="border p-2 text-center">15-16 July</div>
+        <div class="border p-2 text-center">16-17 July</div>
+        <div class="border p-2 text-center">3days(15-17)</div>
       </div>
       <div class="colored">
         <div class="border p-2 text-center">Normal</div>
@@ -108,7 +109,6 @@
       <section class="w-100 my-3">
         <button class="btn btn-flat w-100 m-auto border py-2 text-uppercase more">
           Pay
-          <i class="fas fa-card"></i>
         </button>
       </section>
     </div>

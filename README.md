@@ -4,12 +4,11 @@
 
 > Festival of Arts and Culture
 
-![screenshot](./static-imgs/home-lg.png)
-![screenshot](./static-imgs/home-sm.png)
-![screenshot](./static-imgs/about-lg.png)
-![screenshot](./static-imgs/about-sm.png)
-![screenshot](./static-imgs/ticket.png)
+![homePage](./static-imgs/home-lg.png)
+fig1. Home page full screen view
 
+![AboutPage](./static-imgs/about-lg.png)
+fig2. About page full screen view
 
 ## Built with
 
@@ -23,6 +22,8 @@
 
 This project is built to carefully outline how Bootstrap and CSS can aid in page layout and responsiveness,
 working with this project you will understand and take advantage of grid and flex in both CSS and Bootstrap.
+
+This project give a better undertand when it comes to CSS selectors. You will get to play around with CSS selectors and apply specify styling to a sibling or preceeding element.
 
 ### Prerequisites
 
