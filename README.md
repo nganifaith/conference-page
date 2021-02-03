@@ -50,7 +50,7 @@ This project give a better undertand when it comes to CSS selectors. You will ge
 
 **Design idea by**
 
-- Behance: [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
+- Behance: [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License
 

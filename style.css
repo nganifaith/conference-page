@@ -43,7 +43,7 @@ a:active {
 
 .desktop-nav {
   display: none;
-  transition: all .3s;
+  transition: all 0.3s;
   position: absolute;
   top: 0;
 }
@@ -356,8 +356,7 @@ h4 {
 .ticket-table {
   font-size: 8px;
   border: 10px solid transparent;
-	border-image: 10 repeating-linear-gradient(-45deg, var(--primary-color) 0, var(--primary-color) 1em, transparent 0, transparent 2em,
-	              #58a 0, #58a 3em, transparent 0, transparent 4em);
+	border-image: 10 repeating-linear-gradient(-45deg, var(--primary-color) 0, var(--primary-color) 1em, transparent 0, transparent 2em, #58a 0, #58a 3em, transparent 0, transparent 4em);
 }
 
 .ticket-table > div {
@@ -544,7 +543,7 @@ h4 {
     padding: 5px;
   }
 
-  .ticket-table{
+  .ticket-table {
     font-size: 13px;
   }
 
